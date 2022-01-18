@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://imgur.com/FGsBPF2)
+![](https://imgur.com/Aznpt5I)
 
 Screenshot of the challenge solution. It aims to show the graphic solution of the challenge.
 
