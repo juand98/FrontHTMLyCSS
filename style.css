@@ -1,0 +1,16 @@
+:root {
+  --background-purple: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  --background-received: rgba(238, 229, 244, 1);
+  --received-text: rgba(147, 65, 200, 1);
+  --background-send: rgba(255, 255, 255, 1);
+  --send-text: rgba(110, 93, 126, 1);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Rubik, sans-serif;
+}
