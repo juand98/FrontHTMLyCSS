@@ -36,7 +36,7 @@ Screenshot of the challenge solution. It aims to show the graphic solution of th
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [URL Finish project](https://github.com/juand98/FrontHTMLyCSS)
 
 ## My process
 
