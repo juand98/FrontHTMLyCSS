@@ -35,11 +35,21 @@ body {
   width: 24.7rem;
   height: 50.5rem;
   margin: 6.4rem auto;
-  align-self: center;
   padding: 0.95rem;
   background-color: #ffffff;
   border-radius: 3rem;
   z-index: 2;
+}
+
+.main-container .main-container__button {
+  position: absolute;
+  top: 6.4rem;
+  margin: 0 4.95rem;
+  width: 12.9rem;
+  height: 2.9rem;
+  border-radius: 0px 0px 14px 14px;
+  background: #ffffff;
+  z-index: 3;
 }
 
 .main-container .main-container__block {
