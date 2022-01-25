@@ -32,7 +32,9 @@ body {
 }
 
 .main-container {
-  width: 24.7rem;
+  width: 65.87%;
+  min-width: 248px;
+  max-width: 24.7rem;
   height: 50.5rem;
   margin: 6.4rem auto;
   padding: 0.95rem;
@@ -54,6 +56,7 @@ body {
 
 .main-container .main-container__block {
   width: 100%;
+  min-width: 228px;
   height: 100%;
   border: 1px solid rgba(62, 39, 83, 0.0509178);
   border-radius: 20px;
@@ -61,11 +64,12 @@ body {
 
 .header {
   width: 100%;
+  min-width: 228px;
   height: 6.6rem;
   display: flex;
   justify-content: center;
   background: var(--background-purple);
-  border-radius: 2rem 2rem 0px 0px;
+  border-radius: 2rem 2rem 0.6rem 0.6rem;
   box-shadow: 0px 0px 13px rgba(62, 39, 83, 0.251202);
 }
 
@@ -98,4 +102,40 @@ body {
   background-repeat: no-repeat;
   border: 1px solid #ffffff;
   border-radius: 2.5rem;
+}
+
+.header__container .data-profile {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  min-width: 7.4rem;
+  height: 2.4rem;
+  margin-left: 0.8rem;
+}
+
+.data-profile .data-profile__name {
+  font-family: Rubik, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-align: start;
+  color: #ffffff;
+}
+
+.data-profile .data-profile__available {
+  font-family: Rubik, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 0.9rem;
+  color: #d99eff;
+}
+
+.header__container .icon-options {
+  width: 0.3rem;
+  height: 0.9rem;
+  margin-left: 7.8rem;
+  background-image: url(./Assets/images/icon-options.svg);
+  /* background-size: cover;
+  background-position: center; */
+  background-repeat: no-repeat;
 }
