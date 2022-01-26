@@ -40,6 +40,7 @@ body {
   padding: 0.95rem;
   background-color: #ffffff;
   border-radius: 3rem;
+  box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.251202);
   z-index: 2;
 }
 
@@ -60,11 +61,12 @@ body {
   height: 100%;
   border: 1px solid rgba(62, 39, 83, 0.0509178);
   border-radius: 20px;
+  background-color: #f5f3f7;
 }
 
 .header {
   width: 100%;
-  min-width: 228px;
+  min-width: 22.8rem;
   height: 6.6rem;
   display: flex;
   justify-content: center;
@@ -138,4 +140,79 @@ body {
   /* background-size: cover;
   background-position: center; */
   background-repeat: no-repeat;
+}
+
+.chat-container {
+  width: 100%;
+  min-width: 22.8rem;
+  height: auto; /*41.7rem (definir según el viewport) El auto deja que ocupe el espacio que requiera el contenido.*/
+  margin-top: 1.1rem;
+}
+
+.chat-container .chat-container__received {
+  width: 59.65%;
+  min-width: 13.6rem;
+  height: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.75rem;
+}
+
+.chat-container__received span {
+  width: 12.8rem;
+  height: auto;
+  margin-bottom: 0.8rem;
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  font-family: Rubik, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  text-align: left;
+  color: var(--received-text);
+  background: #eee5f4;
+  border-radius: 10px 10px 10px 4px;
+}
+
+.chat-container__send {
+  width: 59.65%;
+  height: 11.3rem;
+  margin-left: 8.45rem;
+}
+
+.chat-container__send .img-container {
+  width: 13.6rem;
+  height: 4rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-container img {
+  width: 4rem;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+}
+
+.chat-container__send span {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  margin-bottom: 0.8rem;
+  text-align: left;
+  font-family: Rubik, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  color: var(--send-text);
+  border-radius: 10px 10px 4px 10px;
+  background: #ffffff;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+}
+
+.chat-container #second-message {
+  margin-left: 5.68rem;
 }
