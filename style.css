@@ -146,13 +146,13 @@ body {
   width: 100%;
   min-width: 22.8rem;
   height: auto; /*41.7rem (definir según el viewport) El auto deja que ocupe el espacio que requiera el contenido.*/
-  margin-top: 1.1rem;
 }
 
 .chat-container .chat-container__received {
   width: 59.65%;
   min-width: 13.6rem;
   height: auto;
+  margin-top: 1.1rem;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
@@ -215,4 +215,5 @@ body {
 
 .chat-container #second-message {
   margin-left: 5.68rem;
+  margin-bottom: 1rem;
 }
