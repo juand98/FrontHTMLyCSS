@@ -1,0 +1,7 @@
+body {
+  flex-direction: column;
+}
+
+.gray-rectangle {
+  left: 39rem;
+}

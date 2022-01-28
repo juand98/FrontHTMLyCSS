@@ -1,0 +1,13 @@
+body {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  margin: 6.4rem 0rem 6.4rem 9rem;
+}
+
+.section-container {
+  margin: 0rem 9rem 0rem 2.9rem;
+}
