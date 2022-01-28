@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 .purple-rectangle {
   left: -9rem;
   top: -40rem;
